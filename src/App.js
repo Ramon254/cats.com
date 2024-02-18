@@ -19,7 +19,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        App header
+        Cats.com!!!
       </header>
       <Picture id={catId}></Picture>
       <Button incrementCatId={incrementCatId}></Button>
