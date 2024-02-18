@@ -1,23 +1,28 @@
-import logo from './logo.svg';
+import React, {useState} from 'react';
+import Picture from './Components/Picture';
 import './App.css';
+import Button from './Components/Button';
+import data from './Database/Data';
 
 function App() {
+
+  const [catId, setCatId] = useState(1);
+
+  function incrementCatId() {
+    if (catId === data.length) {
+      setCatId(1);
+    } else {
+      setCatId(catId + 1);
+    }
+  }
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        App header
       </header>
+      <Picture id={catId}></Picture>
+      <Button incrementCatId={incrementCatId}></Button>
     </div>
   );
 }
