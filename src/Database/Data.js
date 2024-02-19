@@ -6,12 +6,12 @@ const data = [
     },
     {
         id: 2,
-        desc: "This cat is fat, for real",
+        desc: "This cat is fat for real",
         path: "./static/cat2.png"
     },
     {
         id: 3,
-        desc: "Hot dog ass cat",
+        desc: "What's bro looking at??",
         path: "./static/cat3.png"
     }
 ];

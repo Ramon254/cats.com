@@ -1,0 +1,14 @@
+.change-button {
+    background-color: #64CCC5;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+}

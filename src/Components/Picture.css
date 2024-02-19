@@ -1,0 +1,19 @@
+.image-container {
+    margin: 20px auto;
+}
+
+.image {
+    height: 500px;
+    width: auto;
+    border: 10px solid #053B50;
+    border-radius: 10px;
+}
+
+span {
+    margin-top: 10px;
+    display: block;
+}
+
+.image-desc {
+    font-weight: bold;
+}

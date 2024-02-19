@@ -3,7 +3,7 @@ import './Button.css';
 function Button(props) {
 
     return (
-        <button onClick={props.incrementCatId}>Change</button>
+        <button className='change-button' onClick={props.incrementCatId}>Change</button>
     )
 }
 

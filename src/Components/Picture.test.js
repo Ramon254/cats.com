@@ -3,7 +3,7 @@ import Picture from './Picture';
 
 test('renders the correct image description', () => {
     const { container } = render(<Picture id={1} />);
-    const expected = 'This cat is cooking some fire breakfast';
+    const expected = 'Image Description: This cat is cooking some fire breakfast';
   
     const linkElement = container.getElementsByClassName('image-container');
     

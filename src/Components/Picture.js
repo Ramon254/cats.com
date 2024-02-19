@@ -7,7 +7,7 @@ function Picture(props) {
   return (
       <div className="image-container">
         <img src={image.path} className="image" alt="displayed cat" />
-        <span className="image-desc">Image desc: {image.desc}</span>
+        <span className="image-desc">{image.desc}</span>
       </div>
   );
 }
